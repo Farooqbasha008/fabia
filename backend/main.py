@@ -67,7 +67,7 @@ async def chat(request: ChatRequest):
         "Content-Type": "application/json"
     }
     data = {
-        "model": "groq-model-name",  # Replace with the actual Groq model name
+        "model": "llama-3.3-70b-versatile",  # Replace with the actual Groq model name
         "messages": messages
     }
 
