@@ -11,7 +11,7 @@ class ChatRequest(BaseModel):
 @app.post("/chat")
 async def chat(request: ChatRequest):
     # Groq API endpoint
-    groq_url = "https://api.groq.com/v1/chat/completions"  # Replace with the actual Groq API endpoint
+    groq_url = "https://api.groq.com/openai/v1/chat/completions"  # Replace with the actual Groq API endpoint
 
     # System prompt for FABIA
     system_prompt = """
